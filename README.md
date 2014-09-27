@@ -23,7 +23,6 @@ I used couple of libraries to build this sample.
 
 Module and Path
 ===============
-The list of the feature implementing code
 
 	Model			model/*
 	View			templates/*
