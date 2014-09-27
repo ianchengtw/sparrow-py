@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/css/posts.css">
+
+<header>
+	<h1>New Post</h1>
+	<a href="/posts" class="pull-right">Posts</a>	
+</header>
+
+<section class="form">
+	<form action="" method="post">
+		Title
+		<input type="text" name="title" class="row">
+		Content
+		<textarea name="content" class="row"></textarea>
+
+		{% if data %}
+		<div class="error">{{data.error}}</div>
+		{% endif %}
+
+		<input type="submit" value="Submit" class="row">
+	</form>
+</section>
+
+{% endblock %}

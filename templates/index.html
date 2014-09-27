@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/css/index.css">
+
+<header>
+	<h1>Welcome to Sparrow-py</h1>
+	<a href="/posts" class="pull-right">Posts</a>	
+</header>
+
+<section class="index-container">
+	<p>Sparrow-py is a lightweight Python web-framework sample. It demonstrates how to implement some common web techniques. These techniques include MVC, RUI Routing, HTTP Request Handle, CRUD and Template.</p>
+	
+	<br>
+	<p>I used couple of libraries to build this sample.</p>
+
+	<ul>
+		<li>
+			<a href="https://webapp-improved.appspot.com/" target="_blank">webapp2</a> - A lightweight Python web framework. Implements the features of RUI Routing, HTTP Request Handle.
+			<p class="lib-desc"></p>
+		</li>
+		<li>
+			<a href="http://jinja.pocoo.org/docs/dev/" target="_blank">Jinja2</a> - It is a templating language. It handles the View feature of MVC.
+		</li>
+		<li>
+			<a href="https://cloud.google.com/appengine/docs/python/gettingstartedpython27/usingdatastore" target="_blank">Google App Engine</a> - Implements the CRUD feature.
+		</li>
+	</ul>
+	
+	<br><br>
+	<h2><a href="http://molten-calling-716.appspot.com" target="_blank">Website/Demo</a></h2>
+
+</section>
+
+<footer>
+	<div class="author">Author: Yun Hung</div>
+	<img src="/image/GitHub-Mark-32px.png" alt="github">
+	<a href="https://github.com/ianchengtw" target="_blank">Yun Hung's GitHub</a>
+</footer>
+
+{% endblock %}

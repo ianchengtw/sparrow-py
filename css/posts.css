@@ -1,0 +1,51 @@
+section.form {
+	width: 800px;
+	margin: 0 auto;
+}
+
+section.form textarea {
+	width: 800px;
+	height: 200px;
+}
+
+section.form input[type="text"] {
+	width: 800px;
+	height: 30px;
+}
+
+section.form .error {
+	color: red;
+}
+
+section.form input[type="submit"] {
+	width: 100px;
+	margin: 0 auto;
+}
+
+header a.pull-right {
+	margin-right: 20px;
+}
+
+section.posts-container {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.a-post {
+	margin: 20px auto;
+}
+.a-post .title {
+	font-weight: 900;
+}
+.a-post .title::before {
+	content: "# ";
+}
+.a-post .created {
+	float: right;
+	color: #585858;
+}
+
+
+
+
+

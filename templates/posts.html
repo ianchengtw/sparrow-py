@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/css/posts.css">
+
+<header>
+	<h1>Posts</h1>
+	<a href="/newpost" class="pull-right">New Post</a>	
+</header>
+
+<section class="posts-container">
+{% if data %}
+
+	{% for post in data %}
+		
+		<div class="a-post">
+			<span class="title">
+				<a href="/post/{{post.key().id()}}">{{post.title}}</a>
+			</span>
+			<span class="created">{{post.created.strftime("%b %d, %Y")}}</span>
+			<hr class="row">
+			<p class="content">{{post.content | safe}}</p>
+		</div>
+
+	{% else %}
+		No Post Here.
+	{% endfor %}
+
+{% endif %}
+</section>
+
+
+{% endblock %}
