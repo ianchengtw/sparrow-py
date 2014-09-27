@@ -10,13 +10,13 @@ Libraries
 =========
 I used couple of libraries to build this sample.
 
-	1. webapp2 - A lightweight Python web framework. Implements the features of RUI Routing, HTTP Request Handle.
+	1. webapp2 - A lightweight Python web framework. Implements the techniques of RUI Routing, HTTP Request Handle.
 	https://webapp-improved.appspot.com/
 
-	2. Jinja2 - It is a templating language. It handles the View feature of MVC.
+	2. Jinja2 - It is a templating language. It handles the View of MVC.
 	http://jinja.pocoo.org/docs/dev/
 
-	3. Google App Engine - Implements the CRUD feature.
+	3. Google App Engine - Implements the CRUD techniques.
 	https://cloud.google.com/appengine/docs/python/gettingstartedpython27/usingdatastore
 
 
