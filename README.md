@@ -3,6 +3,11 @@ sparrow-py
 
 Sparrow-py is a lightweight Python web-framework sample. It demonstrates how to implement some common web techniques. These techniques include MVC, RUI Routing, HTTP Request Handle, CRUD and Template.
 
+<h2><a href="http://molten-calling-716.appspot.com" target="_blank">Website/Demo</a></h2>
+
+
+Libraries
+=========
 I used couple of libraries to build this sample.
 
 	1. webapp2 - A lightweight Python web framework. Implements the features of RUI Routing, HTTP Request Handle.
@@ -16,11 +21,11 @@ I used couple of libraries to build this sample.
 
 
 
+Module and Path
+===============
 The list of the feature implementing code
 
-Module			Path
-============================
-Model			model
-View			templates
-Controll		handler
-URI Routing		main.py
+	Model			model/*
+	View			templates/*
+	Controll		handler/*
+	URI Routing		main.py
