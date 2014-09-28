@@ -1,5 +1,5 @@
 import webapp2
-from handler import *
+from handlers import *
 
 
 # URI routing

@@ -1,5 +1,5 @@
-from handler import Handler
-from model import posts
+from handlers.handler import Handler
+from models import posts
 from time import sleep
 
 class PostsHandler(Handler):

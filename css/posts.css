@@ -44,8 +44,8 @@ section.posts-container {
 	float: right;
 	color: #585858;
 }
-
-
-
+.a-post .content {
+	word-wrap:break-word
+}
 
 

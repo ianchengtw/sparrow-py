@@ -24,7 +24,7 @@ I used couple of libraries to build this sample.
 Module and Path
 ===============
 
-	Model			model/*
+	Model			models/*
 	View			templates/*
-	Controll		handler/*
+	Controll		handlers/*
 	URI Routing		main.py
